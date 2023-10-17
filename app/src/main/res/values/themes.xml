@@ -1,0 +1,79 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PeterObiOneNigeria" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/gray</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:title">false</item>
+    </style>
+
+
+    <style name="Theme.PeterObiOneNigeria.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:title">false</item>
+    </style>
+
+    <style name="Theme.PeterObiOneNigeria.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.PeterObiOneNigeria.Fullscreen" parent="Theme.PeterObiOneNigeria">
+        <item name="android:actionBarStyle">
+            @style/Widget.Theme.PeterObiOneNigeria.ActionBar.Fullscreen
+        </item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="Theme.PeterObiOneNigeria.Popup" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:actionBarStyle">
+            @style/Widget.Theme.PeterObiOneNigeria.ActionBar.Fullscreen
+        </item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorSecondary">@color/green_naija</item>
+        <item name="colorSecondaryVariant">@color/green_naija</item>
+        <item name="colorPrimary">@color/green_naija</item>
+        <item name="colorPrimaryVariant">@color/green_naija</item>
+        <item name="colorOnPrimary">@color/green_naija</item>
+        <!-- Secondary brand color. -->
+        <item name="colorOnSecondary">@color/green_naija</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/green_naija</item>
+        <!--<item name="android:alpha">0.9</item>-->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">@null</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="FadeMaterialCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/half_black</item>
+    </style>
+
+
+    <style name="ThemeOverlay.PeterObiOneNigeria.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+</resources>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginVertical="70dp"
+    tools:context=".MerchShopActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="30dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grayblack_gradient">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="10">
+                <com.bosphere.fadingedgelayout.FadingEdgeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    app:fel_edge="bottom|top"
+                    app:fel_size_bottom="50dp">
+
+                    <ImageView
+                        android:id="@+id/order_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                </com.bosphere.fadingedgelayout.FadingEdgeLayout>
+            </LinearLayout>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                style="@style/FadeMaterialCard"
+                app:cardCornerRadius="20dp">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fadingEdgeLength="20dp"
+                    android:fadingEdge="vertical"
+                    android:fadeScrollbars="false"
+                    android:requiresFadingEdge="vertical">
+<!--                    android:gravity="bottom"-->
+<!--                    android:layout_gravity="bottom"-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingBottom="50dp"
+                        android:layout_marginVertical="30dp"
+                        android:layout_marginHorizontal="20dp">
+
+                                <ImageView
+                                    android:id="@+id/small_naija_badge"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:elevation="10dp"/>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingHorizontal="30dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"
+                                android:gravity="center|start"
+                                android:text="PRICE:"
+                                android:textColor="@color/orange"
+                                android:textSize="14sp"
+                                android:layout_marginTop="20dp"/>
+
+                            <TextView
+                                android:id="@+id/order_price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"
+                                android:gravity="center|start"
+                                android:text="N607,000"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="20dp"/>
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/order_item_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:gravity="center|start"
+                            android:text="Hoodie"
+                            android:textSize="14sp"
+                            android:background="@drawable/edit_bg"
+                            android:paddingHorizontal="30dp"/>
+
+                        <EditText
+                            android:id="@+id/order_customer_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:hint="First name"
+                            android:inputType="textCapWords"
+                            android:textColorHint="@color/gray0"
+                            android:theme="@style/Theme.PeterObiOneNigeria.Popup"
+                            android:textSize="14sp"
+                            android:maxLines="1"
+                            android:lines="1"
+                            android:background="@drawable/edit_bg"
+                            android:paddingHorizontal="30dp"
+                            android:layout_marginEnd="50dp"
+                            android:layout_marginTop="20dp"/>
+
+                        <EditText
+                            android:id="@+id/order_quantity"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:inputType="number"
+                            android:hint="How many?"
+                            android:textColorHint="@color/gray0"
+                            android:theme="@style/Theme.PeterObiOneNigeria.Popup"
+                            android:textSize="14sp"
+                            android:maxLines="1"
+                            android:lines="1"
+                            android:background="@drawable/edit_bg"
+                            android:layout_marginEnd="100dp"
+                            android:paddingHorizontal="30dp"
+                            android:layout_marginTop="20dp"/>
+
+                        <EditText
+                            android:id="@+id/order_customers_phone"
+                            android:layout_width="match_parent"
+                            android:inputType="phone"
+                            android:layout_height="45dp"
+                            android:hint="Phone number"
+                            android:textColorHint="@color/gray0"
+                            android:theme="@style/Theme.PeterObiOneNigeria.Popup"
+                            android:textSize="14sp"
+                            android:maxLines="1"
+                            android:lines="1"
+                            android:background="@drawable/edit_bg"
+                            android:paddingHorizontal="30dp"
+                            android:layout_marginTop="20dp"/>
+
+                        <EditText
+                            android:id="@+id/order_city"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:hint="State/city for delivery"
+                            android:textColorHint="@color/gray0"
+                            android:inputType="textCapWords"
+                            android:theme="@style/Theme.PeterObiOneNigeria.Popup"
+                            android:textSize="14sp"
+                            android:maxLines="1"
+                            android:lines="1"
+                            android:background="@drawable/edit_bg"
+                            android:paddingHorizontal="30dp"
+                            android:layout_marginTop="20dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Payment:"
+                            android:textSize="20sp"
+                            android:paddingHorizontal="30dp"
+                            android:textStyle="bold"
+                            android:layout_marginTop="50dp"
+                            android:textColor="@color/green_naija"/>
+                        <TextView
+                            android:id="@+id/account_owner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="I. R. Oyewole"
+                            android:textSize="15sp"
+                            android:paddingHorizontal="30dp"
+                            android:textColor="@color/white"/>
+                        <TextView
+                            android:id="@+id/account_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2021516843"
+                            android:textSize="20sp"
+                            android:paddingHorizontal="30dp"
+                            android:textColor="@color/white"/>
+                        <TextView
+                            android:id="@+id/bank_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kuda Bank | Savings"
+                            android:textSize="15sp"
+                            android:paddingHorizontal="30dp"
+                            android:textColor="@color/white"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center"
+                            android:layout_marginHorizontal="20dp">
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/confirm_details"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:theme="@style/Theme.PeterObiOneNigeria.Popup"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/gray0"
+                                android:text="I confirm that my above address and phone number are correct."/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_marginHorizontal="20dp">
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/confirm_payment"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:theme="@style/Theme.PeterObiOneNigeria.Popup"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/gray0"
+                                android:text="I have successfully made payment too!"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/green_naija"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginHorizontal="30dp"
+                            android:layout_marginTop="20dp"
+                            android:textSize="12sp"
+                            android:text="Complaints &amp; enquiries, WhatsApp/Call:\n(+234) 807-886-260"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="10sp"
+                            android:layout_marginHorizontal="30dp"
+                            android:text="Terms &amp; Conditions Apply"/>
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/confirm_order"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginHorizontal="50dp"
+                            android:layout_marginTop="20dp"
+                            android:text="Confirm Order"
+                            android:layout_marginBottom="50dp"
+                            android:textColor="@color/white"
+                            android:theme="@style/Theme.PeterObiOneNigeria.Popup"
+                            app:cornerRadius="50dp"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray0"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="10sp"
+                            android:layout_marginHorizontal="30dp"
+                            android:text="©2022 • DevX App Campus, Abuja."/>
+                    </LinearLayout>
+                </ScrollView>
+            </com.google.android.material.card.MaterialCardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#27FFFFFF">
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

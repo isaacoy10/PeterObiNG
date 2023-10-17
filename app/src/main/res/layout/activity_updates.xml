@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/update_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/update_layout_gradient"
+    tools:context=".UpdatesActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/black_gradient_reversed"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/merch_row"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:fadingEdgeLength="50dp"
+                android:fadingEdge="vertical"
+                android:requiresFadingEdge="vertical"
+                android:layout_weight="3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• • • • •"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/gray2"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/news_update"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:divider="@color/transparent"
+                android:layout_weight="7"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="50dp"
+            android:alpha="0">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obi"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="'2"
+                android:gravity="center"
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:gravity="center"
+                android:textColor="@color/red"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

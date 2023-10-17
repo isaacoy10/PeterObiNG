@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bg"
+    android:paddingHorizontal="50dp"
+    android:paddingVertical="10dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/naija_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green_naija"
+        android:text="One "/>
+    <TextView
+        android:id="@+id/naija_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Nig"/>
+    <TextView
+        android:id="@+id/naija_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green_naija"
+        android:text="eria!♥"/>
+</LinearLayout>

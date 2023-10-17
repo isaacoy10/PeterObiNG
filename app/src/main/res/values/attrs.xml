@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="FadingEdgeLayout_fel_edge"></declare-styleable>
+    <declare-styleable name="AlphaGradientLayout"></declare-styleable>
+</resources>

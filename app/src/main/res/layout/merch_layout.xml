@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5.25"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4.75"
+            android:src="@drawable/half_circle_blur"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="0dp"
+            android:orientation="vertical"
+            android:layout_weight="4"
+            android:weightSum="10"
+            android:layout_gravity="bottom">
+
+            <ImageView
+                android:id="@+id/merch_image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:id="@+id/merch_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="Sweat Jacket"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/merch_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:paddingHorizontal="50dp"
+                android:text="Soft apparel for the struggle to victory and lofty luxury ar neck region. For a larger size"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/merch_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="NGN 45,000"
+                android:textColor="#339576"/>
+        </LinearLayout>
+
+</FrameLayout>

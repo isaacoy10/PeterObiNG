@@ -1,0 +1,38 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/black_gradient.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/black_gradient_reversed.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/edit_bg.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/grayblack_gradient.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/white_gradient.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/whiteblack_gradient.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw600dp/fragment_item_detail.xml" value="0.291015625" />
+        <entry key="app/src/main/res/layout-sw600dp/fragment_item_list.xml" value="0.291015625" />
+        <entry key="app/src/main/res/layout/activity_big_news.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_full_gallery.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_item_detail.xml" value="0.23148148148148148" />
+        <entry key="app/src/main/res/layout/activity_merch_shop.xml" value="0.155859375" />
+        <entry key="app/src/main/res/layout/activity_tabbed.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_updates.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_item_detail.xml" value="0.23148148148148148" />
+        <entry key="app/src/main/res/layout/fragment_item_list.xml" value="0.3729166666666667" />
+        <entry key="app/src/main/res/layout/fragment_tabbed.xml" value="0.35885416666666664" />
+        <entry key="app/src/main/res/layout/item_list_content.xml" value="0.3729166666666667" />
+        <entry key="app/src/main/res/layout/merch_layout.xml" value="0.27291666666666664" />
+        <entry key="app/src/main/res/layout/one_nigeria_exit.xml" value="1.5" />
+        <entry key="app/src/main/res/layout/updates_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.165" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.165" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

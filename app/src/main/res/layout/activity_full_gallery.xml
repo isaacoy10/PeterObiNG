@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:theme="@style/ThemeOverlay.PeterObiOneNigeria.FullscreenContainer"
+    tools:context=".FullGalleryActivity">
+
+    <FrameLayout
+        android:id="@+id/base_black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="40dp">
+
+            <TextView
+                android:id="@+id/r1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/green"
+                android:text="ROAD"/>
+            <TextView
+                android:id="@+id/r2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:text="TO"/>
+            <TextView
+                android:id="@+id/r3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="@color/green"
+                android:text="GLORY"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/map_dot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.25"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="10"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"/>
+            <FrameLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:id="@+id/twentythree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2023"
+                    android:textColor="@color/white"
+                    android:gravity="top|end"
+                    android:layout_gravity="top|end"
+                    android:textSize="150sp"
+                    android:paddingEnd="0dp"/>
+
+                <ImageView
+                    android:id="@+id/peter_obi_splash"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="start"
+                    android:translationX="-70dp"/>
+                <ImageView
+                    android:id="@+id/peter_obi_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"/>
+            </FrameLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/black_gradient"/>
+    </FrameLayout>
+
+</FrameLayout>

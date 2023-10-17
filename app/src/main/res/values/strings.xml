@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Peter Obi - One Nigeria</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="ADMOB_APP_ID">ca-app-pub-4236283999178355~1692723914</string>
+    <string name="title_activity_full_gallery">FullGalleryActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="peter_biog">Peter Gregory Obi CON (born 19 July 1961) is a Nigerian businessman and politician who served as the Governor of Anambra State three separate times from 2006 to 2014. In May 2022, he became the Labour Party nominee for President of Nigeria in the 2023 presidential election. Born in Onitsha in 1961, Obi graduated from the University of Nigeria in 1984. Afterwards he entered business and banking, eventually rising to hold several high-ranking executive positions at banks. By the early 2000s, Obi was the chairman of Fidelity Bank before leaving the position to enter politics. Obi ran for governor in 2003, as a member of the All Progressives Grand Alliance but his main opponent was unlawfully declared victor. After three years of legal battles, Obi was declared winner in 2006 and assumed office in March, 2006. He was then impeached that November before the impeachment was overturned and he returned to office in February 2007. Again, Obi was removed when a new election was held in April 2007 but the judiciary intervened again and ruled that he should be allowed to complete a full four-year term. In 2010, he won re-election to a second term. Obi\'s terms were marked by improvements in state finances, education, and healthcare. After leaving office in 2014, Obi gained new status as an advocate for good governance and national political figure after decamping to the Peoples Democratic Party in 2014.\nIn 2019, he was selected as the vice presidential nominee in the presidential election running alongside Atiku Abubakar, but lost to incumbent president Muhammadu Buhari and vice president Yemi Osinbajo.\n In May 2022, Obi became the presidential candidate of the LP in the upcoming 2023 general elections, after defecting from the PDP.</string>
+</resources>
